@@ -12,16 +12,16 @@ buildscript {
 apply plugin: 'android-library'
 
 dependencies {
-    compile([group: 'com.android.support', name: 'appcompat-v7', version: '18.0.+'])
+    compile([group: 'com.android.support', name: 'appcompat-v7', version: '19.0.+'])
 }
 
 android {
-    compileSdkVersion 18
-    buildToolsVersion "18.0.1"
+    compileSdkVersion 19
+    buildToolsVersion "19"
 
     defaultConfig {
         minSdkVersion 8
-        targetSdkVersion 18
+        targetSdkVersion 19
     }
 
     sourceSets {
