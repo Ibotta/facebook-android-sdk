@@ -45,4 +45,8 @@ android {
         checkAllWarnings false
         warningsAsErrors false
     }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+    }
 }
