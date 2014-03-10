@@ -5,14 +5,14 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.7.+'
+        classpath 'com.android.tools.build:gradle:0.9.+'
     }
 }
 
 apply plugin: 'android-library'
 
 dependencies {
-    compile([group: 'com.android.support', name: 'appcompat-v7', version: '19.0.+'])
+    compile([group: 'com.android.support', name: 'appcompat-v7', version: '+'])
 }
 
 android {
