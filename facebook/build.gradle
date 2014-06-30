@@ -12,7 +12,7 @@ buildscript {
 apply plugin: 'android-library'
 
 dependencies {
-    compile([group: 'com.android.support', name: 'appcompat-v7', version: '+'])
+    compile([group: 'com.android.support', name: 'appcompat-v7', version: '19.+'])
 }
 
 android {
